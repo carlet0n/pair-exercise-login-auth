@@ -14,7 +14,7 @@ router.get('/me', (req, res, next) => {
   if (!req.session.userId) { 
     userNotFound(next)
   } else {
-    User.findById(req.session.userId)
+    User.findById(req.session.userId) 
       .then(user => user ? res.json(req.user) : userNotFound(next))
       .catch(next)
   }

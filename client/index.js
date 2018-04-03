@@ -4,7 +4,7 @@ import {Provider} from 'react-redux'
 import {BrowserRouter as Router, Route, Switch, withRouter} from 'react-router-dom'
 import store, {getMe} from './store'
 import Login from './login'
-import UserPage from './user-page'
+import UserPage from './user-page' 
 
 const Main = withRouter(class extends Component {
   componentDidMount () {

@@ -3,7 +3,7 @@ import React from 'react'
 const LocalLoginForm = (props) => {
   const {handleSubmit} = props
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}> 
       <div className='flex column'>
         <div className='flex column m1'>
           <label htmlFor='email'>Email</label>

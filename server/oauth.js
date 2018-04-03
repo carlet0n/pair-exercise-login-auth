@@ -25,7 +25,7 @@ passport.use(
         done(instance)
     } catch(err) {console.log(err)}
         
-    })
+    }) 
 )
 
 passport.serializeUser((user, done) => {

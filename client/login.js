@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import {login} from './store'
 import LocalLoginForm from './local-login-form'
 import OauthLoginForm from './oauth-login-form'
-
+ 
 const Login = (props) => {
   const {handleSubmit} = props
 
